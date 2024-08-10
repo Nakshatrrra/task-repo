@@ -58,8 +58,6 @@ ws.on('message', (data) => {
   const action = determineAction(order);
   if (action) {
     console.log(`Action determined: ${action} for order ${AppOrderID}`);
-    // To perform the action
-    // performAction(action, order);
   }
 
   // Aggregation
